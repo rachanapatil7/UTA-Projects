@@ -1,0 +1,82 @@
+Input:
+b1;
+r1 (Z);
+b2;
+r2 (X);
+w2 (X);
+w1 (Z);
+r2 (Y);
+r1 (Y);
+w1 (Y);
+b3;
+r3 (Z);
+e1;
+w3 (Z);	
+w2 (Y);
+e2;
+r3 (X);
+w3 (X);
+e3;
+
+Output:
+
+
+Reading the input from file Input1
+
+Transaction 1 is started and transaction added to transaction table.
+r1 (Z);
+ is a Read operation
+Putting the item Z under Read Lock by Transaction 1
+  
+Transaction 2 is started and transaction added to transaction table.
+ 
+r2 (X);
+ is a Read operation
+Putting the item X under Read Lock by Transaction 2
+w2 (X);
+ is a write operation
+w1 (Z);
+ is a write operation
+Upgrading Read lock to Write Lock on the item Z for transaction 1
+r2 (Y);
+ is a Read operation
+Putting the item Y under Read Lock by Transaction 2
+r1 (Y);
+ is a Read operation
+Putting the item Y under Read Lock by Transaction 2
+w1 (Y);
+ is a write operation
+Conflicting lock as transaction 2 has read locked item Y.
+Transacton 2 aborted
+Upgrading Read lock to Write Lock on the item Y for transaction 1
+Transaction 3 is started and transaction added to transaction table.
+r3 (Z);
+ is a Read operation
+Conflicting Write lock: item Z is under Read Lock by Transaction 1
+calling wound-wait
+changing transaction state for transaction 3 to waiting
+End of Transaction
+Committing transaction 1
+Unlocking all items locked by transaction 1
+checking if there are any transactions waiting on the freed resources
+attempting operation r3 (Z);
+Putting the item Z under Read Lock by Transaction 3
+w3 (Z);
+ is a write operation
+Upgrading Read lock to Write Lock on the item Z for transaction 3
+w2 (Y);
+is a write operation
+T2 is already Aborted
+e2; T2 is already Aborted
+r3 (X);
+ is a Read operation
+Putting the item X under Read Lock by Transaction 3
+w3 (X);
+is a write operation
+Upgrading Read lock to Write Lock on the item X for transaction 3
+e3;
+End of Transaction
+Committing transaction 3
+Unlocking all items locked by transaction 3
+
+Process finished with exit code 0

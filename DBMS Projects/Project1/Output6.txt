@@ -1,0 +1,89 @@
+Input:
+
+b1;
+r1 (Y);
+r1 (Z);
+b2;
+r2 (Y);
+b3;
+r3 (Y);
+w1 (Z);
+w3 (Y);
+w2 (Y);
+r2 (X);	
+e1;	
+e3;
+w2 (X);
+e2;
+
+
+Output:
+
+Reading the input from file Input1
+
+Transaction 1 is started and transaction added to transaction table.
+r1 (Y);
+ is a Read operation
+Putting the item Y under Read Lock by Transaction 1
+r1 (Z);
+ is a Read operation
+Putting the item Z under Read Lock by Transaction 1
+Transaction 2 is started and transaction added to transaction table.
+r2 (Y);
+ is a Read operation
+Putting the item Y under Read Lock by Transaction 2
+Transaction 3 is started and transaction added to transaction table.
+r3 (Y);
+ is a Read operation
+Putting the item Y under Read Lock by Transaction 1
+w1 (Z);
+ is a write operation
+Upgrading Read lock to Write Lock on the item Z for transaction 1
+w3 (Y);
+ is a write operation
+changing transaction state for transaction 3 to waiting
+w2 (Y);
+ is a write operation
+changing transaction state for transaction 2 to waiting
+r2 (X);	
+ is a Read operation
+Transaction 2 is waiting
+End of Transaction
+Committing transaction 1
+Unlocking all items locked by transaction 1
+checking if there are any transactions waiting on the freed resources
+attempting operation w3 (Y);
+
+w3 (Y);
+ is a write operation
+Putting the item Y under Write Lock by Transaction 3
+attempting operation w2 (Y);
+
+w2 (Y);
+ is a write operation
+Conflicting Write Locks: item Y is under Write Lock by Transaction 3
+calling wound wait
+Aborting Transaction 3
+Unlocking all items locked by transaction 3
+checking if there are any transactions waiting on the freed resources
+attempting operation w2 (Y);
+
+w2 (Y);
+ is a write operation
+Upgrading Read lock to Write Lock on the item Y for transaction 2
+r2 (X);
+ is a Read operation
+Putting the item X under Read Lock by Transaction 2	
+	
+e3; Transaction 3 already aborted
+w2 (X);
+is a write operation
+Upgrading Read lock to Write Lock on the item X for transaction 2
+e2;
+End of Transaction
+Committing transaction 2
+Unlocking all items locked by transaction 2
+
+
+Process finished with exit code 0
+
