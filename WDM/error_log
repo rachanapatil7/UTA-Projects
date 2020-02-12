@@ -1,0 +1,71 @@
+[15-Apr-2019 18:56:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:00:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 141
+[15-Apr-2019 19:08:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:10:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:10:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:11:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:13:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:13:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:16:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:17:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:19:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 136
+[15-Apr-2019 19:42:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/add.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/add.php on line 83
+[15-Apr-2019 19:56:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 145
+[15-Apr-2019 20:09:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/add.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/add.php on line 83
+[15-Apr-2019 20:19:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 396
+[15-Apr-2019 20:20:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 396
+[15-Apr-2019 20:21:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 396
+[15-Apr-2019 20:23:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php:430
+Stack trace:
+#0 {main}
+  thrown in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 430
+[15-Apr-2019 20:23:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php:430
+Stack trace:
+#0 {main}
+  thrown in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 430
+[15-Apr-2019 20:24:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 430
+[15-Apr-2019 20:24:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php:460
+Stack trace:
+#0 {main}
+  thrown in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:24:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 430
+[15-Apr-2019 20:24:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:26:14 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:27:12 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:29:12 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 430
+[15-Apr-2019 20:29:12 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:30:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:32:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 430
+[15-Apr-2019 20:32:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 460
+[15-Apr-2019 20:32:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp_1.php on line 490
+[15-Apr-2019 21:03:18 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 116
+[15-Apr-2019 21:03:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 116
+[15-Apr-2019 21:03:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 139
+[15-Apr-2019 21:17:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 137
+[15-Apr-2019 21:21:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 138
+[15-Apr-2019 21:21:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 138
+[15-Apr-2019 21:38:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 102
+[15-Apr-2019 21:38:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 102
+[15-Apr-2019 21:42:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 102
+[15-Apr-2019 21:43:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 102
+[15-Apr-2019 21:55:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/add.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/add.php on line 83
+[15-Apr-2019 21:59:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/add.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/add.php on line 83
+[15-Apr-2019 22:00:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/add.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/add.php on line 83
+[18-Apr-2019 20:10:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/List_of_Events_1.php on line 40
+[18-Apr-2019 20:12:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/AddEvent.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/AddEvent.php on line 120
+[23-Apr-2019 14:47:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp.php:304
+Stack trace:
+#0 {main}
+  thrown in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp.php on line 304
+[24-Apr-2019 21:37:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/ContactUs.php on line 137
+[24-Apr-2019 21:37:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rachanan/public_html/PATIL_LEANEVENT/ContactUs.php on line 137
+[25-Apr-2019 20:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp.php:364
+Stack trace:
+#0 {main}
+  thrown in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp.php on line 364
+[25-Apr-2019 20:34:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp.php:364
+Stack trace:
+#0 {main}
+  thrown in /home/rachanan/public_html/PATIL_LEANEVENT/SignUp.php on line 364
+[25-Apr-2019 20:37:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php:1) in /home/rachanan/public_html/PATIL_LEANEVENT/Login1.php on line 161

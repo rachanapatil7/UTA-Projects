@@ -1,0 +1,1591 @@
+body{
+	font-family: Roboto, Arial, sans-serif;
+	color: #595959;
+	background-color: #ffffff;
+	width: 80%;
+	margin-left: 160px;
+	}
+
+.logo{
+	height: 100px;
+	width: 100px;
+}
+
+#c2{
+	padding-top: 40px;
+}
+.na{
+	padding-top: 25px;
+	padding-right: 100px;
+	text-align: right;
+	font-size: 15px;
+	font-family: Roboto, Arial, sans-serif;
+
+}
+
+.na a{
+	text-decoration: none;
+}
+
+.na a:hover{
+	color:#FFC300;
+}
+.na a.active{
+	color: #FFC300;
+}
+ 
+
+.imall{
+	height: 300px;
+	width:100%;
+}
+}
+
+.hp3_container {
+	display: flex;
+	margin: 10%;
+	width: 80%;
+}
+
+
+.hp3_container div{
+
+	padding-left: 200px;
+	padding-right: 200px;
+}
+h2 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h2:before,
+h2:after {
+background-color: yellow;
+content: "";
+display: inline-block;
+height: 1px;
+position: relative;
+vertical-align: middle;
+width: 10%;
+}
+
+.hp{
+	width: 80;
+	align-content: 80%;
+}
+
+.log{
+	display: block;
+	width: 80%;
+	padding-left: 120px;
+
+}
+
+#logo1{
+
+	width: 20px;
+	height: 10px;
+	margin: 10px;
+	
+	padding-right: 120px;
+}
+
+#logo2{
+
+	width: 20px;
+	height: 10px;
+	margin: 10px;
+	padding-left: 145px;
+	padding-right: 140px;
+}
+
+#logo3{
+
+	width: 20px;
+	height: 10px;
+	margin: 10px;
+	padding-right: 130px;
+	padding-left: 150px;
+
+}
+
+#logo4{
+
+	width: 20px;
+	height: 10px;
+	padding-right: 20px;
+	padding-left: 60px;
+}
+
+
+.clear{
+	clear: both;
+}
+#hp4{
+	background-color: #ffc300;
+	padding-top: 50px;
+	padding-left: 350px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+		
+	}
+
+.container {
+  position: relative;
+  
+}
+
+.text-block {
+  position: absolute;
+  left: 450px;
+    top:100px;
+ }
+
+.text-block1 {
+  position: absolute;
+  text-align: center;
+  left: 620px;
+  top:100px;
+    }
+
+#img2 {
+    position: absolute;
+    left: 850px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#hpf{
+	font-size: 0.7em;
+	font text color: #FF8C00;
+}
+
+footer{
+	width:100%;
+	background-color:#ffc300;
+	font-size: 0.7em;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	}
+.foo{
+	padding-left: 600px;
+	font-size: 0.9em;
+	text-align: left;
+}
+
+.f1 {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 8px 8px;
+	border: none;
+}
+
+.f2{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 8px 8px;
+	background-color: black;
+	color:white;
+	border:none;
+}
+
+.fontawesome{
+	font-size: 2em;
+	color:#ffc300;
+}
+.fontawe{
+	font-size:2em;
+}
+/********************** About_Us.html  ******************************/
+#au1{
+	width: 100%;
+	}
+
+.column {
+     float:left;
+ }
+
+ 
+.flex-container {
+  display: flex;
+  width: 80%;
+  font-size: 10px;
+  padding-left: 150px;
+ }
+
+.flex-container > div {
+  width: 40%;	
+  margin: 10px;
+  padding: 40px;
+  font-size: 15px;
+}
+
+#au2{
+	float: left;
+	width: 40%;
+	padding-right: 10px;
+	margin: 2%;
+}
+
+
+/********************** BuyFromUs.html  ******************************/
+
+
+
+#bfu1{
+	padding-left: 100px;
+	padding-right: 10px;
+	width:180px;
+	margin: 10px;
+	font-size: 12px;
+}
+
+#bfu2{
+	width:180px;
+	margin: 10px;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+#bfu3{
+	width:180px;
+	margin:10px;
+	font-size: 12px;
+	padding-right: 10px;
+	}
+
+#bfu4{
+	width:180px;
+	margin: 10px;
+	font-size: 12px;	
+}
+
+#log1{
+	background-color: #CACACA;
+	
+}
+
+.bu{
+	width: 150px;
+	height: 150px;
+}
+
+
+/********************** Buy from us part 2  ******************************/
+.bfu_container{
+	display: block;
+	margin: 20px;
+	
+
+}
+
+.bfu_container div{
+	padding: 20px;
+}
+
+.bfu1_container{
+	display: block;
+	margin:30px;
+	padding: 30px;
+	padding-left: 400px;
+	width: 50%;
+
+}
+
+.bfu1_container div{
+	padding: 20px;
+
+}
+.btn1{
+	background-color: #f4f4f4;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #ffc300;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#buy{
+	border:2px solid;
+}
+
+
+/********************** tables class(indivi,buss,agent tables)  ******************************/
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	font-size: 14px;
+	}
+
+thead tr{
+background-color: #d3cbcb;
+text-transform: uppercase;
+}
+
+tbody tr{
+	background-color: #f4f4f4;
+	border-bottom: 2px solid #d3cbcb;
+	}
+
+.tc1{
+width: 45%;
+padding: 10px 10px;
+
+}
+
+.tc2{
+width: 10%;
+text-align: center;
+}
+
+.tc3{
+width: 10%;
+text-align: center;
+}
+
+.tc4{
+width: 10%;
+text-align: center;
+}
+
+.tc5{
+width: 10%;
+text-align: center;
+}
+
+.mb{
+height:100px;
+width: 90px; 
+padding-right: 15px;
+}
+
+#it{
+	padding-top: 40px;
+}
+
+
+/********************** individual_signup_form.html  ******************************/
+
+#f_isf{
+  display:block;
+  text-align:left;
+  border:3px solid;
+  padding: 0px 5px 6px 5px;
+  border-radius: 10px;
+  border-style: ridge;
+  width: 40%;
+ 
+  }
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  /*border-radius: 4px;*/
+  box-sizing: border-box;
+}
+
+#isf1{
+	width: 45%;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+#isf2{
+	width: 45%;
+	padding-left: 15px;
+
+}
+#isf3{
+	width: 45%;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+#isf4{
+	width: 45%;
+	padding-left: 15px;
+	
+}
+#isf5{
+	width: 96%;
+	padding-left: 10px;
+	padding-right: 18px;
+	
+	
+}
+
+#isf6{
+	width: 96%;
+	padding-left: 10px;
+	padding-right: 18px;
+	
+}
+
+#isf7{
+	width: 60%;
+	padding-left: 10px;
+	padding-right: 0px;
+	display: inline-block;
+	
+}
+#states{
+	width: 55%;
+  	padding: 10px 8px;
+	margin: 0px 0;
+	border: 1px solid #ccc;
+	
+	}
+
+#isf8{
+	width: 20%;
+	padding-left: 60px;
+}
+
+#isf9{
+	padding-left: 10px;
+}
+#isf10{
+	padding-right: 10px;
+}
+/********************** recover_password.html  ******************************/
+
+
+.pop-up {
+  display:block;
+  text-align:center;
+  border:2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: ridge;
+  width: 30%;
+ 
+ }
+
+ #clo{
+ 	text-align: right;
+ 	border-radius: 10px;
+ }
+
+ .clo1{
+ 	background-color: #d3cbcb;
+ 	border-radius: 10px;
+ 	border: none;
+ 	padding: 9px;
+ }
+
+/********************** ContactUs.html  ******************************/
+
+#f_cu{
+  display:block;
+  text-align:left;
+  /*border:3px solid;*/
+  padding: 10px 10px 15px 10px;
+  /*border-radius: 4px;*/
+  /*border-style: ridge;*/
+  width: 50%;
+  background-color: #c1baba; 
+  margin: 20px;
+  }
+
+#cu1{
+
+width: 45%;
+	padding-left: 20px;
+	padding-right: 10px;
+
+}
+
+#cu2{
+width: 45%;
+padding-left: 20px;
+}
+
+#cu3{
+	width: 95%;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#cu4{
+	width:95%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#cu5{
+	width:95%;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 15px;
+}
+
+#cu6{
+
+}
+
+#cu7{
+	height: 150px;
+	text-align:top;
+}
+
+#cu{
+	width: 50%;
+	text-align: left;
+}
+
+.column1{
+	float: left;
+	padding:8px;
+	color:red; 
+}
+
+#culogo{
+	width: 50px;
+	height: 50px;
+	align-self: center;
+}
+
+#fon{
+	font-size: 10px;
+	margin:5px;
+}
+/********************** Login.html  ******************************/
+
+#l1{
+	  display:block;
+	  text-align:left;
+	  padding: 10px;
+	  background-color: #cec4c4;
+	  width: 50%;
+	  height: 300px;
+}
+
+#l2{
+	width: 45%;
+	padding-left: 20px;
+	padding-right: 10px;
+
+}
+
+#l3{
+	width: 45%;
+	padding-left: 20px;
+}
+
+#l4{
+	text-align: center;
+	color: #ed790e;
+	text-decoration: none;
+}
+
+/********************** signup ******************************/
+
+.sign_up{
+	display: inline-block;
+	padding: 0px 0px  30px 0px	;
+	background-color: #d7d7d7;
+	width: 50%;
+}
+
+#su{
+padding: 4px;
+width: 30%;
+
+}
+
+
+/********************** Add event.html (Profiles of all users) ******************************/
+
+#ae1{
+	  display: block;
+	  background-color: #cec4c4;
+	  text-align:left;
+	  padding: 20px;
+	  width: 50%;
+	  
+}
+
+#ae2{
+	width: 50%;
+
+}
+#ae3{
+	width: 20%;
+	padding-left: 130px;
+	padding-top: 20px;
+}
+#ae4{
+	padding-left: 10px;
+	width:150px;
+}
+#ae5{
+	width: 98.5%;
+}
+#ae6{
+	width: 31%;
+	padding-right: 10px;
+}
+#ae7{
+	width: 31%;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#ae8{
+	width: 31%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#ae9{
+
+}
+#ae10{
+
+}
+
+#addimage{
+	width: 150px;
+	height: 170px;
+}
+
+
+
+/********************** Profiles(extra features).html(ids)  ******************************/
+
+#pro{
+	padding-left: 360px;
+}
+#pro1{
+	width: 20%;
+	padding-left: 360px;
+}
+
+#pro2{
+	width: 20%;
+}
+
+#pro3{
+	width: 20%;
+}
+
+/**************************buttons***********************************************/
+
+.button{
+	border:none;
+	border-radius: 15px;
+	background-color: #ffc300;
+	color: white;
+	padding: 9px;
+}
+
+.btn2 {
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #ffc300;
+}
+
+.btn3 {
+  background-color: #ffc300;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn3:hover {
+  background-color: #ffc300;
+}
+
+
+/**************************list of events unique features***********************************************/
+
+#le{
+	float: right;
+	padding-right: 250px;
+}
+
+#le1{
+	background-color: green;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#star{
+	color: yellow;
+
+}
+
+/**********************************modals***************************************************/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%,-55%);
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
+}
+
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  /*margin-left: 230px;*/
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modalBtn{
+	text-decoration: none;
+}
+#modalBtn2{
+	text-decoration: none;
+}
+#modalBtn3{
+	text-decoration: none;
+}
+
+/********************************************validations******************/
+.error{
+color:red
+}
+
+/**************************media queries***********************************************/
+@media only screen and (max-width: 480px){
+
+
+	body{
+	font-family: Roboto, Arial, sans-serif;
+	color: #595959;
+	background-color: #FFFFFF;
+	}
+
+.logo{
+	height: 50px;
+	width: 50px;
+}
+
+#c2{
+	padding-top: 20px;
+}
+.na{
+	padding-top: 12px;
+	padding-right: 550px;
+	text-align: center;
+	font-size: 8px;
+	font-family: Roboto, Arial, sans-serif;
+	
+}
+
+.na a{
+	text-decoration: none;
+}
+
+.na a:hover{
+	color:#FFC300;
+}
+.na a.active{
+	color: #FFC300;
+}
+ 
+
+.imall{
+	height: 180px;
+	width:100%;
+}
+
+
+.hp3_container {
+	display: flex;
+	margin: 10%;
+	width: 80%;
+}
+
+
+.hp3_container div{
+
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+
+h3 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h3:before,
+h3:after {
+background-color: yellow;
+content: "";
+display: inline-block;
+height: 1px;
+position: relative;
+vertical-align: middle;
+width: 10%;
+}
+
+.hp{
+	width: 80%;
+	align-content: 80%;
+}
+
+.log{
+	display: block;
+	width: 80%;
+	padding-left: 60px;
+
+}
+
+#logo1{
+
+	width: 10px;
+	height: 5px;
+	margin: 5px;
+	
+	padding-right: 60px;
+}
+
+#logo2{
+
+	width: 10px;
+	height: 5px;
+	margin: 5px;
+	padding-left: 77px;
+	padding-right: 70px;
+}
+
+#logo3{
+
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	padding-right: 65px;
+	padding-left: 75px;
+
+}
+
+#logo4{
+
+	width: 10px;
+	height: 5px;
+	padding-right: 10px;
+	padding-left: 30px;
+}
+
+
+.clear{
+	clear: both;
+}
+#hp4{
+	background-color: #ffc300;
+	padding-top: 25px;
+	padding-left: 175px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+		
+	}
+
+.container {
+  position: relative;
+  
+}
+
+.text-block {
+  position: absolute;
+  left: 100px;
+    top:10px;
+ }
+
+.text-block1 {
+  position: absolute;
+  text-align: center;
+  left: 120px;
+  top:25px;
+    }
+
+#img2 {
+    position: absolute;
+    left: 850px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#hpf{
+	font-size: 0.7em;
+	font text color: #FF8C00;
+}
+
+footer{
+	width:100%;
+	background-color:#ffc300;
+	font-size: 0.7em;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	}
+.foo{
+	padding-left: 100px;
+	font-size: 0.9em;
+	text-align: left;
+}
+
+.f1 {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 4px 4px;
+	border: none;
+}
+
+.f2{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 4px 4px;
+	background-color: black;
+	color:white;
+	border:none;
+}
+
+.fontawesome{
+	font-size: 1em;
+	color:#ffc300;
+}
+
+.fontawe{
+	font-size:1em;
+}
+/********************** About_Us.html  ******************************/
+#au1{
+	width: 100%;
+	}
+
+.column {
+     float:left;
+ }
+
+ 
+.flex-container {
+  display: flex;
+  width: 80%;
+  font-size: 5px;
+  padding-left: 30px;
+ }
+
+.flex-container > div {
+  width: 30%;	
+  margin: 5px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+#au2{
+	float: left;
+	width: 30%;
+	padding-right: 0px;
+	margin: 2%;
+}
+
+
+/********************** BuyFromUs.html  ******************************/
+
+
+
+#bfu1{
+	padding-left: 50px;
+	padding-right: 2px;
+	width:50px;
+	margin: 5px;
+	font-size: 8px;
+}
+
+#bfu2{
+	width:50px;
+	margin: 5px;
+	font-size: 8px;
+	padding-right: 5px;
+}
+
+#bfu3{
+	width:50px;
+	margin:5px;
+	font-size:8px;
+	padding-right: 5px;
+	}
+
+#bfu4{
+	width:50px;
+	margin: 5px;
+	font-size: 8px;	
+}
+
+#log1{
+	background-color: #CACACA;
+	
+}
+
+.bu{
+	height: 50px;
+	width: 50px;
+}
+
+
+/********************** Buy from us part 2  ******************************/
+.bfu_container{
+
+	display: block;
+	margin: 5px;
+
+	}
+
+
+
+.bfu_container div{
+	padding: 10px;
+}
+
+.bfu1_container{
+	display: block;
+	margin:10px;
+	padding: 5px;
+	padding-left: 50px;
+	width: 50%;
+
+}
+
+.bfu1_container div{
+	padding: 20px;
+
+}
+.btn1{
+	background-color: #f4f4f4;
+  border: none;
+  padding: 3px;
+  font-size: 9px;
+}
+
+.btn {
+  background-color: #ffc300;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#buy{
+	border:2px solid;
+}
+
+
+/********************** tables class(indivi,buss,agent tables)  ******************************/
+
+table{
+	border-collapse: collapse;
+	width: 40%;
+	font-size: 10px;
+	}
+
+thead tr{
+background-color: #d3cbcb;
+text-transform: uppercase;
+}
+
+tbody tr{
+	background-color: #f4f4f4;
+	border-bottom: 2px solid #d3cbcb;
+	}
+
+.tc1{
+width: 30%;
+padding: 10px 10px;
+
+}
+
+.tc2{
+width: 10%;
+text-align: center;
+}
+
+.tc3{
+width: 10%;
+text-align: center;
+}
+
+.tc4{
+width: 10%;
+text-align: center;
+}
+
+.tc5{
+width: 10%;
+text-align: center;
+}
+
+.mb{
+height:50px;
+width: 40px; 
+padding-right: 15px;
+}
+
+#it{
+	padding-top: 20px;
+}
+
+
+/********************** individual_signup_form.html  ******************************/
+
+#f_isf{
+  display:block;
+  text-align:left;
+  border:3px solid;
+  padding: 0px 5px 6px 5px;
+  border-radius: 10px;
+  border-style: ridge;
+  
+ 
+  }
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  /*border-radius: 4px;*/
+  box-sizing: border-box;
+}
+
+#isf1{
+	width: 45%;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+#isf2{
+	width: 45%;
+	padding-left: 15px;
+
+}
+#isf3{
+	width: 45%;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+#isf4{
+	width: 45%;
+	padding-left: 15px;
+	
+}
+#isf5{
+	width: 96%;
+	padding-left: 10px;
+	padding-right: 18px;
+	
+	
+}
+
+#isf6{
+	width: 96%;
+	padding-left: 10px;
+	padding-right: 18px;
+	
+}
+
+#isf7{
+	width: 60%;
+	padding-left: 10px;
+	padding-right: 0px;
+	display: inline-block;
+	
+}
+#states{
+	width: 55%;
+  	padding: 10px 8px;
+	margin: 0px 0;
+	border: 1px solid #ccc;
+	
+	}
+
+#isf8{
+	width: 20%;
+	padding-left: 60px;
+}
+
+#isf9{
+	padding-left: 10px;
+}
+#isf10{
+	padding-right: 10px;
+}
+
+
+/********************** recover_password.html  ******************************/
+
+.pop-up {
+  display:block;
+  text-align:center;
+  border:2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: ridge;
+  width: 30%;
+ 
+ }
+
+ #clo{
+ 	text-align: right;
+ 	border-radius: 10px;
+ }
+
+ .clo1{
+ 	background-color: #d3cbcb;
+ 	border-radius: 10px;
+ 	border: none;
+ 	padding: 9px;
+ }
+
+
+/********************** ContactUs.html  ******************************/
+
+#f_cu{
+  display:block;
+  text-align:left;
+  /*border:3px solid;*/
+  padding: 5px 5px 70px 5px;
+  /*border-radius: 4px;*/
+  /*border-style: ridge;*/
+  width: 50%;
+  background-color: #c1baba; 
+  margin: 5px;
+  }
+
+#cu1{
+
+width: 45%;
+	padding-left: 10px;
+	padding-right: 5px;
+
+}
+
+#cu2{
+width: 45%;
+padding-left: 10px;
+}
+
+#cu3{
+	width: 95%;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#cu4{
+	width:95%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#cu5{
+	width:95%;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 8px;
+}
+
+#cu6{
+
+}
+
+#cu7{
+	height: 150px;
+	text-align:top;
+}
+
+#cu{
+	width: 50%;
+	text-align: left;
+}
+
+.column1{
+	float: left;
+	padding:8px;
+	color:red; 
+}
+
+#culogo{
+	width: 25px;
+	height: 25px;
+}
+/********************** Login.html  ******************************/
+
+#l1{
+	  display:block;
+	  text-align:left;
+	  padding: 5px;
+	  background-color: #cec4c4;
+	  width: 50%;
+	  height: 380px;
+}
+
+#l2{
+	width: 45%;
+	padding-left: 10px;
+	padding-right: 5px;
+
+}
+
+#l3{
+	width: 45%;
+	padding-left: 10px;
+}
+
+#l4{
+	text-align: center;
+	color: #ed790e;
+	text-decoration: none;
+}
+
+/********************** signup ******************************/
+
+.sign_up{
+	display: inline-block;
+	padding: 0px 0px  30px 0px	;
+	background-color: #d7d7d7;
+	width: 80%;
+	font-size: 15px;
+}
+
+#su{
+padding: 2px;
+width: 30%;
+
+}
+
+
+/********************** Add event.html (Profiles of all users) ******************************/
+
+#ae1{
+	  display: block;
+	  background-color: #cec4c4;
+	  text-align:left;
+	  padding: 10px;
+	  width: 70%;
+	  
+}
+
+#ae2{
+	width: 50%;
+
+}
+#ae3{
+	width: 20%;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+#ae4{
+	padding-left: 0px;
+	width:150px;
+}
+#ae5{
+	width: 98.5%;
+}
+#ae6{
+	width: 31%;
+	padding-right: 8px;
+}
+#ae7{
+	width: 31%;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#ae8{
+	width: 31%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#ae9{
+
+}
+#ae10{
+
+}
+#addimage{
+	width: 50px;
+	height: 70px;
+}
+
+
+
+
+/********************** Profiles(extra features).html(ids)  ******************************/
+
+#pro{
+	padding-left: 60px;
+}
+#pro1{
+	width: 20%;
+	padding-left: 60px;
+}
+
+#pro2{
+	width: 20%;
+}
+
+#pro3{
+	width: 20%;
+}
+
+/**************************buttons***********************************************/
+
+.button{
+	border:none;
+	border-radius: 15px;
+	background-color: #ffc300;
+	color: white;
+	padding: 9px;
+	font-size: 9px;
+}
+
+.btn2 {
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #ffc300;
+}
+
+.btn3 {
+  background-color: #ffc300;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn3:hover {
+  background-color: #ffc300;
+}
+
+/**************************list of events unique features***********************************************/
+
+#le{
+	float: right;
+	padding-right: 100px;
+}
+
+#le1{
+
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#star{
+	color: yellow;
+
+}
+
+
+}
+
+
